@@ -1,0 +1,68 @@
+body{
+background-color: #626566;
+text-align: center;
+margin-left: 600px;
+margin-right: 600px;
+}
+h1{
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+h2{
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+h3{
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+h4{
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+p{
+	color: white;
+	font-family: "Gotham", sans-serif;
+	margin-right: 100px; 
+	margin-left: 100px;
+}
+ul{
+	font-family: Gotham, sans-serif;
+	color: white;
+	text-align: center;
+	list-style-type: none;
+}
+li{
+
+}
+img{
+
+}
+a{
+	color: #FFD41D;
+	text-transform: uppercase;
+}
+#logo_header{
+width: 1200px;
+}
+#slogan{
+	font-style: italic;
+	font-size: 48px;
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+#create{
+	font-style: italic;
+	font-size: 20px;
+	font-family: "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-transform: uppercase;
+}
