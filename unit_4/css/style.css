@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body{
+background-color: #626566;
+margin: 4em;
+padding: 1em;
+
+}
+h1{
+	font-size: 85%;
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+h2{
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #FFD41D;
+	margin: .75em;
+
+}
+h3{
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+}
+h4{
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-align: center;
+}
+p{
+	color: white;
+	letter-spacing: .0625em;
+	font-family: "Roboto+Slab", "Gotham", serif;
+	line-height: 1.25em;
+	margin: 1.5em;
+}
+ul{
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-size: 1.125em;
+	color: white;}
+li{
+	color: white;
+	font-size: 1.125em;
+	letter-spacing: .0625em;
+	font-family: "Oswald", sans-serif;
+	margin-left: 2em;
+}
+img{
+
+}
+a{
+	color: #FFD41D;
+	text-transform: uppercase;
+}
+#logo_header{
+width: 100%;
+}
+#slogan{
+	font-style: italic;
+	font-size: 400%;
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-transform: uppercase;
+	text-align: center;
+}
+#create{
+	font-style: italic;
+	font-size: 3em;
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-transform: uppercase;
+	text-align: center;
+}
+#contact{
+	font-style: italic;
+	font-size: 3em;
+	font-family: "Oswald", "Gotham", sans-serif;
+	font-weight: bold;
+	color: #FFD41D;
+	text-transform: uppercase;
+	text-align: center;
+}
