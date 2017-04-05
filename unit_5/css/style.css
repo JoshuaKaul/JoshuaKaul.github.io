@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto');
+
+body {
+	background-color: #636566;
+	align-content: center;
+	font-family: "Gotham", sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Roboto" sans-serif;
+	color: #ffd41c;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+h4 {
+	margin: 0;
+}
+
+p {
+	font-family: "Roboto";
+	color: white;
+}
+
+ul {
+	color: white;
+	margin: 0;
+}
+
+li {
+	color: white;
+}
+
+a {
+	color: #ffd41c;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #555758;
+
+}
+
+nav {
+	height: 50px;
+	/*background-color: #959697;*/
+	text-align: center;
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	padding-top: 20px;
+
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+header {
+	max-width: 	800px;
+	min-width: 480px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#logo_header {
+	max-width: 100%;
+	height: auto;
+	min-width: 480px
+	margin: auto;
+}
+
+#help {
+	margin: 10px 0 0 0;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+section {
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#portfolio {
+}
+
+article {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#about {
+}
+
+footer {
+	/*background-color: #3e4041;*/
+	padding: 30px 0px 50px 0px;
+
+
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+#contact {
+	width: 800px;
+	margin: 0 auto;
+
+}
