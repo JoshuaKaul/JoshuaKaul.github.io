@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body, html{
+	height: 100%;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+	margin: 0 auto;
+}
+
+.menu{
+	position:fixed;
+    top:0px;
+    width:100%;
+    height:125px;
+    background-color: #797c87;
+    z-index:500;	
+}
+
+#nav2 {
+    text-align: center;
+/*    height: auto;*/
+    margin: 0px auto;
+/*    width: 80%;*/
+}
+
+#nav{
+	text-align: center;
+}
+
+#nav ul{
+}
+
+#nav li{
+	list-style: none; 
+    display: inline-block;
+    vertical-align: middle; /*add this line*/
+}
+
+#nav a {
+    color: #ffc20e; 
+    display: block; 
+    text-transform: uppercase; 
+    margin: 0; 
+    padding: 9px 18px 9px; 
+    text-decoration: none;
+}
+
+#nav a:hover {
+    background-color: #ffc20e; 
+    color: #fff; 
+}
+
+#navlogo{
+	width: 150px;
+	z-index: 100;
+    top: 50px;
+    margin: 0px;
+    margin-top: 0px;
+    display: inline-block;
+}
+
+.navigation{  
+/*    width: 100%;*/
+    list-style: none;
+    text-align: center;
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.hero_image {
+	/* The image used */
+    background-image: url("../images/iStock-523161954.jpg");
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	float: left
+}
+
+#hero_logo{
+	display: block;
+	margin: 300px auto;
+	width: 50%;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+header{
+	background-color: #797c87;
+	clear: both;
+}
+
+#masthead_bar{
+	height: 70px;
+}
+
+#masthead{
+	text-align: center;
+	line-height: 60px;
+	margin: 0;
+}
+
+#bodywrap{
+	background-color: #989faa;
+}
+
+#twocol{
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+#left{
+    padding: 20px;
+    width: 42%;
+    float: left;   
+}
+
+#left h2{
+	letter-spacing: 2px;
+	color: #ffc20e;
+}
+
+#left h4, p{
+	margin-bottom: 0; 
+}
+
+#left p{
+	margin-top: 1px;
+
+}
+
+#right{
+    padding: 20px;
+    width: 50%;
+	float: right;
+}
+
+#right h3{
+	letter-spacing: 2px;
+	color: #ffc20e;
+}
+
+#portfolio{
+	background-color: #b5bbc7;
+	padding: 20px 20px;
+}
+
+#port{
+	margin: 0 auto;
+	width: 80%;
+}
+
+footer{
+	clear: both;
+	background-color: #414046;
+	padding: 10px 20px;
+	text-align: center
+}
+
+footer h2{
+	letter-spacing: 2px
+}
+
+footer a{
+	text-decoration: none;
+	color: #ffc20e;
+}
+
+#ftrlogowrapper{
+	
+}
+
+#footerlogo{
+	margin-top: 30px;
+	width: 250px;
+}
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
