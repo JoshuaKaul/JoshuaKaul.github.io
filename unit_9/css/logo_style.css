@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,900,900i');
+
+body{
+	background-image: url('../../Unit 8_v2/images/BG Pattern-01.png');
+	background-repeat: repeat;
+	background-color: #797c87;
+	background-size: 5em;
+}
+
+body, html{
+	margin: 0 auto;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;	
+}
+
+#pagewrap{
+	margin: 0 auto;
+	padding: 0;
+	min-width: 320px;
+}
+
+nav{
+	background-color: #ffc20e; /*LightGrey –––> #797c87;*/
+	height: 11em;
+	text-align: center;
+}
+
+#navlogo{
+	height: 5.5em;
+	padding: 2em 0em 1em;
+	display: inline-block;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-weight: 700;
+	color: #2b2b30;
+}
+
+nav li{
+	display: inline-block;
+	padding: 0 .8em;
+}
+
+nav a{
+	text-decoration: none;
+	color: #2b2b30;
+}
+
+
+
+#body{
+	margin: 0 auto;
+	padding: 0 2em;
+	background-color: white;
+	max-width: 1000px;
+}
+
+
+.card {
+	margin: 0 auto;
+	padding: 2em 0;
+	text-align: center;
+	min-width: 320px;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.card img{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.card p{
+	padding: 0 2em;
+}
+hr{
+}
+
+
+
+footer{
+	background-color: #2b2b30;
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	color: white;
+	clear: both;
+}
+
+footer img{
+	width: 15em;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+@media (min-width: 320px){
+	#body{
+		margin: 0 auto;
+		padding: 0;
+		min-width: 320px;		
+	}
+	
+	.about_wrap{
+		width:90%;
+		margin: 0 auto;
+		padding: 2em .25em;
+		color: #2b2b30;
+	}
+}
+
+@media (min-width: 445px){
+	
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #ffc20e; /* Set a background color */
+    color: #2b2b30; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+	font-family: "Montserrat", sans-serif;
+	font-weight:900; 
+}
+
+#myBtn:hover {
+    background-color: #797c87; /* Add a dark-grey background on hover */
+}
+
+@media (min-width: 768px){
+	#body{
+		margin: 0 auto;
+		padding: 0 5em;
+		min-width: 320px;		
+	}
+}
